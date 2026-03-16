@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W01",
+    "fever_cases": 54,
+    "respiratory_cases": 27,
+    "vaccination_rate": 0.56,
+    "population": 50000,
+    "temperature_avg": 25.0,
+    "humidity": 56.7
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W02",
+    "fever_cases": 54,
+    "respiratory_cases": 29,
+    "vaccination_rate": 0.565,
+    "population": 50000,
+    "temperature_avg": 25.5,
+    "humidity": 60.4
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W03",
+    "fever_cases": 76,
+    "respiratory_cases": 44,
+    "vaccination_rate": 0.57,
+    "population": 50000,
+    "temperature_avg": 28.0,
+    "humidity": 64.3
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W04",
+    "fever_cases": 85,
+    "respiratory_cases": 38,
+    "vaccination_rate": 0.575,
+    "population": 50000,
+    "temperature_avg": 30.4,
+    "humidity": 69.5
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W05",
+    "fever_cases": 93,
+    "respiratory_cases": 48,
+    "vaccination_rate": 0.58,
+    "population": 50000,
+    "temperature_avg": 31.1,
+    "humidity": 71.1
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W06",
+    "fever_cases": 100,
+    "respiratory_cases": 61,
+    "vaccination_rate": 0.585,
+    "population": 50000,
+    "temperature_avg": 31.6,
+    "humidity": 71.7
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W07",
+    "fever_cases": 87,
+    "respiratory_cases": 56,
+    "vaccination_rate": 0.59,
+    "population": 50000,
+    "temperature_avg": 30.6,
+    "humidity": 71.0
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W08",
+    "fever_cases": 74,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.595,
+    "population": 50000,
+    "temperature_avg": 28.4,
+    "humidity": 63.6
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W09",
+    "fever_cases": 59,
+    "respiratory_cases": 30,
+    "vaccination_rate": 0.6,
+    "population": 50000,
+    "temperature_avg": 25.9,
+    "humidity": 58.7
+  },
+  {
+    "hospital_id": "L",
+    "region": "Bhopal, Madhya Pradesh",
+    "week": "2024-W10",
+    "fever_cases": 51,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.605,
+    "population": 50000,
+    "temperature_avg": 25.4,
+    "humidity": 57.6
+  }
+]

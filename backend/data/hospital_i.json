@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W01",
+    "fever_cases": 58,
+    "respiratory_cases": 31,
+    "vaccination_rate": 0.52,
+    "population": 55000,
+    "temperature_avg": 28.8,
+    "humidity": 29.8
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W02",
+    "fever_cases": 58,
+    "respiratory_cases": 33,
+    "vaccination_rate": 0.525,
+    "population": 55000,
+    "temperature_avg": 29.9,
+    "humidity": 28.3
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W03",
+    "fever_cases": 81,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.53,
+    "population": 55000,
+    "temperature_avg": 34.3,
+    "humidity": 35.5
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W04",
+    "fever_cases": 93,
+    "respiratory_cases": 48,
+    "vaccination_rate": 0.535,
+    "population": 55000,
+    "temperature_avg": 36.3,
+    "humidity": 44.5
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W05",
+    "fever_cases": 94,
+    "respiratory_cases": 49,
+    "vaccination_rate": 0.54,
+    "population": 55000,
+    "temperature_avg": 37.2,
+    "humidity": 45.9
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W06",
+    "fever_cases": 98,
+    "respiratory_cases": 45,
+    "vaccination_rate": 0.545,
+    "population": 55000,
+    "temperature_avg": 38.3,
+    "humidity": 43.4
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W07",
+    "fever_cases": 91,
+    "respiratory_cases": 48,
+    "vaccination_rate": 0.55,
+    "population": 55000,
+    "temperature_avg": 36.0,
+    "humidity": 44.3
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W08",
+    "fever_cases": 76,
+    "respiratory_cases": 39,
+    "vaccination_rate": 0.555,
+    "population": 55000,
+    "temperature_avg": 33.8,
+    "humidity": 35.8
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W09",
+    "fever_cases": 57,
+    "respiratory_cases": 32,
+    "vaccination_rate": 0.56,
+    "population": 55000,
+    "temperature_avg": 29.7,
+    "humidity": 29.6
+  },
+  {
+    "hospital_id": "I",
+    "region": "Jaipur, Rajasthan",
+    "week": "2024-W10",
+    "fever_cases": 58,
+    "respiratory_cases": 30,
+    "vaccination_rate": 0.565,
+    "population": 55000,
+    "temperature_avg": 29.2,
+    "humidity": 28.8
+  }
+]

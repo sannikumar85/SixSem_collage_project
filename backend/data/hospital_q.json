@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W01",
+    "fever_cases": 50,
+    "respiratory_cases": 23,
+    "vaccination_rate": 0.76,
+    "population": 55000,
+    "temperature_avg": 26.8,
+    "humidity": 78.4
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W02",
+    "fever_cases": 49,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.765,
+    "population": 55000,
+    "temperature_avg": 26.6,
+    "humidity": 79.0
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W03",
+    "fever_cases": 75,
+    "respiratory_cases": 41,
+    "vaccination_rate": 0.77,
+    "population": 55000,
+    "temperature_avg": 28.4,
+    "humidity": 86.6
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W04",
+    "fever_cases": 81,
+    "respiratory_cases": 47,
+    "vaccination_rate": 0.775,
+    "population": 55000,
+    "temperature_avg": 29.8,
+    "humidity": 87.2
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W05",
+    "fever_cases": 85,
+    "respiratory_cases": 53,
+    "vaccination_rate": 0.78,
+    "population": 55000,
+    "temperature_avg": 31.0,
+    "humidity": 91.0
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W06",
+    "fever_cases": 91,
+    "respiratory_cases": 42,
+    "vaccination_rate": 0.785,
+    "population": 55000,
+    "temperature_avg": 31.1,
+    "humidity": 88.7
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W07",
+    "fever_cases": 88,
+    "respiratory_cases": 51,
+    "vaccination_rate": 0.79,
+    "population": 55000,
+    "temperature_avg": 29.2,
+    "humidity": 89.7
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W08",
+    "fever_cases": 68,
+    "respiratory_cases": 43,
+    "vaccination_rate": 0.795,
+    "population": 55000,
+    "temperature_avg": 28.6,
+    "humidity": 86.9
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W09",
+    "fever_cases": 54,
+    "respiratory_cases": 32,
+    "vaccination_rate": 0.8,
+    "population": 55000,
+    "temperature_avg": 26.4,
+    "humidity": 80.9
+  },
+  {
+    "hospital_id": "Q",
+    "region": "Thiruvananthapuram, Kerala",
+    "week": "2024-W10",
+    "fever_cases": 51,
+    "respiratory_cases": 25,
+    "vaccination_rate": 0.805,
+    "population": 55000,
+    "temperature_avg": 26.1,
+    "humidity": 79.1
+  }
+]

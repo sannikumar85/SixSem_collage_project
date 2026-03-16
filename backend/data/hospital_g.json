@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W01",
+    "fever_cases": 51,
+    "respiratory_cases": 24,
+    "vaccination_rate": 0.68,
+    "population": 65000,
+    "temperature_avg": 24.0,
+    "humidity": 61.2
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W02",
+    "fever_cases": 55,
+    "respiratory_cases": 25,
+    "vaccination_rate": 0.685,
+    "population": 65000,
+    "temperature_avg": 25.4,
+    "humidity": 63.8
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W03",
+    "fever_cases": 73,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.69,
+    "population": 65000,
+    "temperature_avg": 28.0,
+    "humidity": 68.1
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W04",
+    "fever_cases": 84,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.695,
+    "population": 65000,
+    "temperature_avg": 28.5,
+    "humidity": 74.6
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W05",
+    "fever_cases": 93,
+    "respiratory_cases": 53,
+    "vaccination_rate": 0.7,
+    "population": 65000,
+    "temperature_avg": 29.5,
+    "humidity": 73.7
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W06",
+    "fever_cases": 89,
+    "respiratory_cases": 44,
+    "vaccination_rate": 0.705,
+    "population": 65000,
+    "temperature_avg": 29.7,
+    "humidity": 73.9
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W07",
+    "fever_cases": 87,
+    "respiratory_cases": 43,
+    "vaccination_rate": 0.71,
+    "population": 65000,
+    "temperature_avg": 30.0,
+    "humidity": 73.3
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W08",
+    "fever_cases": 78,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.715,
+    "population": 65000,
+    "temperature_avg": 27.4,
+    "humidity": 68.9
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W09",
+    "fever_cases": 59,
+    "respiratory_cases": 26,
+    "vaccination_rate": 0.72,
+    "population": 65000,
+    "temperature_avg": 25.1,
+    "humidity": 63.9
+  },
+  {
+    "hospital_id": "G",
+    "region": "Pune, Maharashtra",
+    "week": "2024-W10",
+    "fever_cases": 53,
+    "respiratory_cases": 31,
+    "vaccination_rate": 0.725,
+    "population": 65000,
+    "temperature_avg": 25.8,
+    "humidity": 61.4
+  }
+]

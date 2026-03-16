@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W01",
+    "fever_cases": 34,
+    "respiratory_cases": 15,
+    "vaccination_rate": 0.63,
+    "population": 38000,
+    "temperature_avg": 12.1,
+    "humidity": 47.4
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W02",
+    "fever_cases": 38,
+    "respiratory_cases": 18,
+    "vaccination_rate": 0.635,
+    "population": 38000,
+    "temperature_avg": 11.3,
+    "humidity": 49.8
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W03",
+    "fever_cases": 42,
+    "respiratory_cases": 22,
+    "vaccination_rate": 0.64,
+    "population": 38000,
+    "temperature_avg": 16.6,
+    "humidity": 55.5
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W04",
+    "fever_cases": 55,
+    "respiratory_cases": 27,
+    "vaccination_rate": 0.645,
+    "population": 38000,
+    "temperature_avg": 18.1,
+    "humidity": 59.5
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W05",
+    "fever_cases": 56,
+    "respiratory_cases": 25,
+    "vaccination_rate": 0.65,
+    "population": 38000,
+    "temperature_avg": 19.1,
+    "humidity": 62.9
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W06",
+    "fever_cases": 58,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.655,
+    "population": 38000,
+    "temperature_avg": 19.8,
+    "humidity": 61.1
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W07",
+    "fever_cases": 60,
+    "respiratory_cases": 29,
+    "vaccination_rate": 0.66,
+    "population": 38000,
+    "temperature_avg": 18.4,
+    "humidity": 61.0
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W08",
+    "fever_cases": 46,
+    "respiratory_cases": 23,
+    "vaccination_rate": 0.665,
+    "population": 38000,
+    "temperature_avg": 16.8,
+    "humidity": 54.4
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W09",
+    "fever_cases": 31,
+    "respiratory_cases": 15,
+    "vaccination_rate": 0.67,
+    "population": 38000,
+    "temperature_avg": 13.0,
+    "humidity": 49.7
+  },
+  {
+    "hospital_id": "P",
+    "region": "Srinagar, Jammu & Kashmir",
+    "week": "2024-W10",
+    "fever_cases": 34,
+    "respiratory_cases": 17,
+    "vaccination_rate": 0.675,
+    "population": 38000,
+    "temperature_avg": 12.4,
+    "humidity": 49.5
+  }
+]

@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyi
+*.pyz
+.venv/
+
+# Environment files
+.env
+backend/.env
+
+# Node / React
+node_modules/
+frontend/node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Build outputs
+build/
+dist/
+debug/
+.vscode/
+.DS_Store

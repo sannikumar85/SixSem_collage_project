@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W01",
+    "fever_cases": 45,
+    "respiratory_cases": 23,
+    "vaccination_rate": 0.65,
+    "population": 50000,
+    "temperature_avg": 28.5,
+    "humidity": 72
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W02",
+    "fever_cases": 52,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.65,
+    "population": 50000,
+    "temperature_avg": 29.1,
+    "humidity": 75
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W03",
+    "fever_cases": 61,
+    "respiratory_cases": 35,
+    "vaccination_rate": 0.66,
+    "population": 50000,
+    "temperature_avg": 30.2,
+    "humidity": 78
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W04",
+    "fever_cases": 78,
+    "respiratory_cases": 42,
+    "vaccination_rate": 0.66,
+    "population": 50000,
+    "temperature_avg": 31.5,
+    "humidity": 80
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W05",
+    "fever_cases": 95,
+    "respiratory_cases": 55,
+    "vaccination_rate": 0.67,
+    "population": 50000,
+    "temperature_avg": 32.0,
+    "humidity": 82
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W06",
+    "fever_cases": 110,
+    "respiratory_cases": 63,
+    "vaccination_rate": 0.67,
+    "population": 50000,
+    "temperature_avg": 32.8,
+    "humidity": 85
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W07",
+    "fever_cases": 88,
+    "respiratory_cases": 48,
+    "vaccination_rate": 0.68,
+    "population": 50000,
+    "temperature_avg": 31.4,
+    "humidity": 79
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W08",
+    "fever_cases": 72,
+    "respiratory_cases": 39,
+    "vaccination_rate": 0.69,
+    "population": 50000,
+    "temperature_avg": 30.1,
+    "humidity": 76
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W09",
+    "fever_cases": 58,
+    "respiratory_cases": 30,
+    "vaccination_rate": 0.70,
+    "population": 50000,
+    "temperature_avg": 29.3,
+    "humidity": 73
+  },
+  {
+    "hospital_id": "A",
+    "region": "North Delhi",
+    "week": "2024-W10",
+    "fever_cases": 49,
+    "respiratory_cases": 25,
+    "vaccination_rate": 0.71,
+    "population": 50000,
+    "temperature_avg": 28.0,
+    "humidity": 70
+  }
+]

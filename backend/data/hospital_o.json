@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W01",
+    "fever_cases": 38,
+    "respiratory_cases": 23,
+    "vaccination_rate": 0.74,
+    "population": 52000,
+    "temperature_avg": 19.5,
+    "humidity": 54.0
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W02",
+    "fever_cases": 47,
+    "respiratory_cases": 26,
+    "vaccination_rate": 0.745,
+    "population": 52000,
+    "temperature_avg": 21.2,
+    "humidity": 55.4
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W03",
+    "fever_cases": 64,
+    "respiratory_cases": 35,
+    "vaccination_rate": 0.75,
+    "population": 52000,
+    "temperature_avg": 25.5,
+    "humidity": 64.3
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W04",
+    "fever_cases": 75,
+    "respiratory_cases": 37,
+    "vaccination_rate": 0.755,
+    "population": 52000,
+    "temperature_avg": 28.5,
+    "humidity": 66.0
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W05",
+    "fever_cases": 73,
+    "respiratory_cases": 35,
+    "vaccination_rate": 0.76,
+    "population": 52000,
+    "temperature_avg": 30.7,
+    "humidity": 67.8
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W06",
+    "fever_cases": 70,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.765,
+    "population": 52000,
+    "temperature_avg": 30.3,
+    "humidity": 67.3
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W07",
+    "fever_cases": 69,
+    "respiratory_cases": 38,
+    "vaccination_rate": 0.77,
+    "population": 52000,
+    "temperature_avg": 28.8,
+    "humidity": 65.4
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W08",
+    "fever_cases": 61,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.775,
+    "population": 52000,
+    "temperature_avg": 24.6,
+    "humidity": 61.8
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W09",
+    "fever_cases": 44,
+    "respiratory_cases": 26,
+    "vaccination_rate": 0.78,
+    "population": 52000,
+    "temperature_avg": 20.5,
+    "humidity": 55.2
+  },
+  {
+    "hospital_id": "O",
+    "region": "Chandigarh, Punjab",
+    "week": "2024-W10",
+    "fever_cases": 44,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.785,
+    "population": 52000,
+    "temperature_avg": 19.3,
+    "humidity": 53.5
+  }
+]

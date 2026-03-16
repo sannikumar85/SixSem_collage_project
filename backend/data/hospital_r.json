@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W01",
+    "fever_cases": 55,
+    "respiratory_cases": 32,
+    "vaccination_rate": 0.57,
+    "population": 58000,
+    "temperature_avg": 27.5,
+    "humidity": 59.9
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W02",
+    "fever_cases": 63,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.575,
+    "population": 58000,
+    "temperature_avg": 28.8,
+    "humidity": 59.8
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W03",
+    "fever_cases": 79,
+    "respiratory_cases": 47,
+    "vaccination_rate": 0.58,
+    "population": 58000,
+    "temperature_avg": 32.2,
+    "humidity": 69.4
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W04",
+    "fever_cases": 91,
+    "respiratory_cases": 57,
+    "vaccination_rate": 0.585,
+    "population": 58000,
+    "temperature_avg": 34.3,
+    "humidity": 71.5
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W05",
+    "fever_cases": 103,
+    "respiratory_cases": 61,
+    "vaccination_rate": 0.59,
+    "population": 58000,
+    "temperature_avg": 35.3,
+    "humidity": 74.4
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W06",
+    "fever_cases": 99,
+    "respiratory_cases": 60,
+    "vaccination_rate": 0.595,
+    "population": 58000,
+    "temperature_avg": 35.4,
+    "humidity": 73.5
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W07",
+    "fever_cases": 95,
+    "respiratory_cases": 49,
+    "vaccination_rate": 0.6,
+    "population": 58000,
+    "temperature_avg": 33.3,
+    "humidity": 69.9
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W08",
+    "fever_cases": 84,
+    "respiratory_cases": 43,
+    "vaccination_rate": 0.605,
+    "population": 58000,
+    "temperature_avg": 31.5,
+    "humidity": 67.7
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W09",
+    "fever_cases": 65,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.61,
+    "population": 58000,
+    "temperature_avg": 29.3,
+    "humidity": 62.6
+  },
+  {
+    "hospital_id": "R",
+    "region": "Nagpur, Maharashtra",
+    "week": "2024-W10",
+    "fever_cases": 53,
+    "respiratory_cases": 33,
+    "vaccination_rate": 0.615,
+    "population": 58000,
+    "temperature_avg": 28.7,
+    "humidity": 61.9
+  }
+]

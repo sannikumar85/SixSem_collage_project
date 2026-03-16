@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W01",
+    "fever_cases": 45,
+    "respiratory_cases": 24,
+    "vaccination_rate": 0.78,
+    "population": 62000,
+    "temperature_avg": 25.0,
+    "humidity": 83.0
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W02",
+    "fever_cases": 49,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.785,
+    "population": 62000,
+    "temperature_avg": 26.7,
+    "humidity": 82.0
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W03",
+    "fever_cases": 62,
+    "respiratory_cases": 29,
+    "vaccination_rate": 0.79,
+    "population": 62000,
+    "temperature_avg": 27.3,
+    "humidity": 86.9
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W04",
+    "fever_cases": 72,
+    "respiratory_cases": 45,
+    "vaccination_rate": 0.795,
+    "population": 62000,
+    "temperature_avg": 29.4,
+    "humidity": 91.8
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W05",
+    "fever_cases": 81,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.8,
+    "population": 62000,
+    "temperature_avg": 28.5,
+    "humidity": 92.6
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W06",
+    "fever_cases": 81,
+    "respiratory_cases": 36,
+    "vaccination_rate": 0.805,
+    "population": 62000,
+    "temperature_avg": 28.5,
+    "humidity": 92.1
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W07",
+    "fever_cases": 75,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.81,
+    "population": 62000,
+    "temperature_avg": 29.7,
+    "humidity": 88.3
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W08",
+    "fever_cases": 68,
+    "respiratory_cases": 34,
+    "vaccination_rate": 0.815,
+    "population": 62000,
+    "temperature_avg": 27.4,
+    "humidity": 86.6
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W09",
+    "fever_cases": 52,
+    "respiratory_cases": 27,
+    "vaccination_rate": 0.82,
+    "population": 62000,
+    "temperature_avg": 26.2,
+    "humidity": 82.6
+  },
+  {
+    "hospital_id": "T",
+    "region": "Kochi, Kerala",
+    "week": "2024-W10",
+    "fever_cases": 42,
+    "respiratory_cases": 24,
+    "vaccination_rate": 0.825,
+    "population": 62000,
+    "temperature_avg": 25.5,
+    "humidity": 80.8
+  }
+]

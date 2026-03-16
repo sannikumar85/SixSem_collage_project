@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W01",
+    "fever_cases": 72,
+    "respiratory_cases": 39,
+    "vaccination_rate": 0.49,
+    "population": 60000,
+    "temperature_avg": 27.4,
+    "humidity": 68.1
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W02",
+    "fever_cases": 87,
+    "respiratory_cases": 41,
+    "vaccination_rate": 0.495,
+    "population": 60000,
+    "temperature_avg": 27.3,
+    "humidity": 70.3
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W03",
+    "fever_cases": 103,
+    "respiratory_cases": 52,
+    "vaccination_rate": 0.5,
+    "population": 60000,
+    "temperature_avg": 29.8,
+    "humidity": 76.1
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W04",
+    "fever_cases": 119,
+    "respiratory_cases": 71,
+    "vaccination_rate": 0.505,
+    "population": 60000,
+    "temperature_avg": 30.7,
+    "humidity": 79.9
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W05",
+    "fever_cases": 136,
+    "respiratory_cases": 63,
+    "vaccination_rate": 0.51,
+    "population": 60000,
+    "temperature_avg": 31.3,
+    "humidity": 79.9
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W06",
+    "fever_cases": 133,
+    "respiratory_cases": 61,
+    "vaccination_rate": 0.515,
+    "population": 60000,
+    "temperature_avg": 31.1,
+    "humidity": 80.4
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W07",
+    "fever_cases": 128,
+    "respiratory_cases": 66,
+    "vaccination_rate": 0.52,
+    "population": 60000,
+    "temperature_avg": 31.1,
+    "humidity": 77.1
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W08",
+    "fever_cases": 104,
+    "respiratory_cases": 66,
+    "vaccination_rate": 0.525,
+    "population": 60000,
+    "temperature_avg": 30.0,
+    "humidity": 74.3
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W09",
+    "fever_cases": 80,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.53,
+    "population": 60000,
+    "temperature_avg": 27.6,
+    "humidity": 69.2
+  },
+  {
+    "hospital_id": "J",
+    "region": "Lucknow, Uttar Pradesh",
+    "week": "2024-W10",
+    "fever_cases": 74,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.535,
+    "population": 60000,
+    "temperature_avg": 27.6,
+    "humidity": 67.6
+  }
+]

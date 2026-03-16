@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W01",
+    "fever_cases": 49,
+    "respiratory_cases": 23,
+    "vaccination_rate": 0.72,
+    "population": 90000,
+    "temperature_avg": 23.0,
+    "humidity": 60.5
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W02",
+    "fever_cases": 46,
+    "respiratory_cases": 28,
+    "vaccination_rate": 0.725,
+    "population": 90000,
+    "temperature_avg": 22.4,
+    "humidity": 59.7
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W03",
+    "fever_cases": 73,
+    "respiratory_cases": 44,
+    "vaccination_rate": 0.73,
+    "population": 90000,
+    "temperature_avg": 25.5,
+    "humidity": 67.6
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W04",
+    "fever_cases": 79,
+    "respiratory_cases": 36,
+    "vaccination_rate": 0.735,
+    "population": 90000,
+    "temperature_avg": 26.1,
+    "humidity": 71.7
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W05",
+    "fever_cases": 87,
+    "respiratory_cases": 47,
+    "vaccination_rate": 0.74,
+    "population": 90000,
+    "temperature_avg": 26.4,
+    "humidity": 72.3
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W06",
+    "fever_cases": 85,
+    "respiratory_cases": 42,
+    "vaccination_rate": 0.745,
+    "population": 90000,
+    "temperature_avg": 27.5,
+    "humidity": 74.5
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W07",
+    "fever_cases": 84,
+    "respiratory_cases": 45,
+    "vaccination_rate": 0.75,
+    "population": 90000,
+    "temperature_avg": 26.2,
+    "humidity": 69.4
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W08",
+    "fever_cases": 66,
+    "respiratory_cases": 31,
+    "vaccination_rate": 0.755,
+    "population": 90000,
+    "temperature_avg": 24.9,
+    "humidity": 66.2
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W09",
+    "fever_cases": 44,
+    "respiratory_cases": 20,
+    "vaccination_rate": 0.76,
+    "population": 90000,
+    "temperature_avg": 23.6,
+    "humidity": 59.8
+  },
+  {
+    "hospital_id": "E",
+    "region": "Bengaluru, Karnataka",
+    "week": "2024-W10",
+    "fever_cases": 51,
+    "respiratory_cases": 22,
+    "vaccination_rate": 0.765,
+    "population": 90000,
+    "temperature_avg": 22.8,
+    "humidity": 58.4
+  }
+]

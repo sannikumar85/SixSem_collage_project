@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W01",
+    "fever_cases": 73,
+    "respiratory_cases": 42,
+    "vaccination_rate": 0.61,
+    "population": 80000,
+    "temperature_avg": 29.5,
+    "humidity": 74.0
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W02",
+    "fever_cases": 70,
+    "respiratory_cases": 44,
+    "vaccination_rate": 0.615,
+    "population": 80000,
+    "temperature_avg": 29.1,
+    "humidity": 75.6
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W03",
+    "fever_cases": 98,
+    "respiratory_cases": 54,
+    "vaccination_rate": 0.62,
+    "population": 80000,
+    "temperature_avg": 32.1,
+    "humidity": 81.8
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W04",
+    "fever_cases": 109,
+    "respiratory_cases": 58,
+    "vaccination_rate": 0.625,
+    "population": 80000,
+    "temperature_avg": 33.3,
+    "humidity": 86.2
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W05",
+    "fever_cases": 123,
+    "respiratory_cases": 65,
+    "vaccination_rate": 0.63,
+    "population": 80000,
+    "temperature_avg": 32.3,
+    "humidity": 86.7
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W06",
+    "fever_cases": 117,
+    "respiratory_cases": 64,
+    "vaccination_rate": 0.635,
+    "population": 80000,
+    "temperature_avg": 32.1,
+    "humidity": 87.8
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W07",
+    "fever_cases": 110,
+    "respiratory_cases": 66,
+    "vaccination_rate": 0.64,
+    "population": 80000,
+    "temperature_avg": 33.4,
+    "humidity": 86.2
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W08",
+    "fever_cases": 103,
+    "respiratory_cases": 49,
+    "vaccination_rate": 0.645,
+    "population": 80000,
+    "temperature_avg": 31.9,
+    "humidity": 81.8
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W09",
+    "fever_cases": 71,
+    "respiratory_cases": 35,
+    "vaccination_rate": 0.65,
+    "population": 80000,
+    "temperature_avg": 29.5,
+    "humidity": 74.0
+  },
+  {
+    "hospital_id": "F",
+    "region": "Chennai, Tamil Nadu",
+    "week": "2024-W10",
+    "fever_cases": 66,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.655,
+    "population": 80000,
+    "temperature_avg": 28.2,
+    "humidity": 73.3
+  }
+]

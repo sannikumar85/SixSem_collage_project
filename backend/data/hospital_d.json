@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W01",
+    "fever_cases": 54,
+    "respiratory_cases": 26,
+    "vaccination_rate": 0.58,
+    "population": 75000,
+    "temperature_avg": 30.4,
+    "humidity": 66.5
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W02",
+    "fever_cases": 68,
+    "respiratory_cases": 43,
+    "vaccination_rate": 0.585,
+    "population": 75000,
+    "temperature_avg": 29.6,
+    "humidity": 67.4
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W03",
+    "fever_cases": 89,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.59,
+    "population": 75000,
+    "temperature_avg": 31.5,
+    "humidity": 70.7
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W04",
+    "fever_cases": 101,
+    "respiratory_cases": 51,
+    "vaccination_rate": 0.595,
+    "population": 75000,
+    "temperature_avg": 33.5,
+    "humidity": 75.1
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W05",
+    "fever_cases": 104,
+    "respiratory_cases": 48,
+    "vaccination_rate": 0.6,
+    "population": 75000,
+    "temperature_avg": 33.9,
+    "humidity": 77.5
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W06",
+    "fever_cases": 108,
+    "respiratory_cases": 54,
+    "vaccination_rate": 0.605,
+    "population": 75000,
+    "temperature_avg": 34.9,
+    "humidity": 78.7
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W07",
+    "fever_cases": 105,
+    "respiratory_cases": 56,
+    "vaccination_rate": 0.61,
+    "population": 75000,
+    "temperature_avg": 33.4,
+    "humidity": 76.8
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W08",
+    "fever_cases": 89,
+    "respiratory_cases": 41,
+    "vaccination_rate": 0.615,
+    "population": 75000,
+    "temperature_avg": 33.0,
+    "humidity": 73.8
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W09",
+    "fever_cases": 65,
+    "respiratory_cases": 37,
+    "vaccination_rate": 0.62,
+    "population": 75000,
+    "temperature_avg": 30.0,
+    "humidity": 64.9
+  },
+  {
+    "hospital_id": "D",
+    "region": "Hyderabad, Telangana",
+    "week": "2024-W10",
+    "fever_cases": 61,
+    "respiratory_cases": 38,
+    "vaccination_rate": 0.625,
+    "population": 75000,
+    "temperature_avg": 29.9,
+    "humidity": 66.8
+  }
+]

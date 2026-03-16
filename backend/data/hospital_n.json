@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W01",
+    "fever_cases": 74,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.45,
+    "population": 42000,
+    "temperature_avg": 25.6,
+    "humidity": 82.7
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W02",
+    "fever_cases": 73,
+    "respiratory_cases": 35,
+    "vaccination_rate": 0.455,
+    "population": 42000,
+    "temperature_avg": 25.8,
+    "humidity": 85.4
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W03",
+    "fever_cases": 100,
+    "respiratory_cases": 61,
+    "vaccination_rate": 0.46,
+    "population": 42000,
+    "temperature_avg": 27.8,
+    "humidity": 85.8
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W04",
+    "fever_cases": 113,
+    "respiratory_cases": 69,
+    "vaccination_rate": 0.465,
+    "population": 42000,
+    "temperature_avg": 29.8,
+    "humidity": 90.0
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W05",
+    "fever_cases": 115,
+    "respiratory_cases": 60,
+    "vaccination_rate": 0.47,
+    "population": 42000,
+    "temperature_avg": 30.4,
+    "humidity": 92.9
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W06",
+    "fever_cases": 121,
+    "respiratory_cases": 69,
+    "vaccination_rate": 0.475,
+    "population": 42000,
+    "temperature_avg": 30.6,
+    "humidity": 90.9
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W07",
+    "fever_cases": 114,
+    "respiratory_cases": 59,
+    "vaccination_rate": 0.48,
+    "population": 42000,
+    "temperature_avg": 29.6,
+    "humidity": 91.7
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W08",
+    "fever_cases": 91,
+    "respiratory_cases": 42,
+    "vaccination_rate": 0.485,
+    "population": 42000,
+    "temperature_avg": 27.4,
+    "humidity": 86.9
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W09",
+    "fever_cases": 75,
+    "respiratory_cases": 42,
+    "vaccination_rate": 0.49,
+    "population": 42000,
+    "temperature_avg": 25.2,
+    "humidity": 85.0
+  },
+  {
+    "hospital_id": "N",
+    "region": "Guwahati, Assam",
+    "week": "2024-W10",
+    "fever_cases": 71,
+    "respiratory_cases": 43,
+    "vaccination_rate": 0.495,
+    "population": 42000,
+    "temperature_avg": 24.1,
+    "humidity": 84.6
+  }
+]

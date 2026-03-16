@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W01",
+    "fever_cases": 63,
+    "respiratory_cases": 32,
+    "vaccination_rate": 0.55,
+    "population": 70000,
+    "temperature_avg": 29.7,
+    "humidity": 34.3
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W02",
+    "fever_cases": 66,
+    "respiratory_cases": 31,
+    "vaccination_rate": 0.555,
+    "population": 70000,
+    "temperature_avg": 29.7,
+    "humidity": 36.1
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W03",
+    "fever_cases": 87,
+    "respiratory_cases": 54,
+    "vaccination_rate": 0.56,
+    "population": 70000,
+    "temperature_avg": 33.1,
+    "humidity": 46.3
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W04",
+    "fever_cases": 98,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.565,
+    "population": 70000,
+    "temperature_avg": 34.9,
+    "humidity": 51.3
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W05",
+    "fever_cases": 99,
+    "respiratory_cases": 46,
+    "vaccination_rate": 0.57,
+    "population": 70000,
+    "temperature_avg": 36.4,
+    "humidity": 51.3
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W06",
+    "fever_cases": 96,
+    "respiratory_cases": 47,
+    "vaccination_rate": 0.575,
+    "population": 70000,
+    "temperature_avg": 36.5,
+    "humidity": 51.9
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W07",
+    "fever_cases": 98,
+    "respiratory_cases": 49,
+    "vaccination_rate": 0.58,
+    "population": 70000,
+    "temperature_avg": 34.5,
+    "humidity": 51.3
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W08",
+    "fever_cases": 87,
+    "respiratory_cases": 41,
+    "vaccination_rate": 0.585,
+    "population": 70000,
+    "temperature_avg": 33.6,
+    "humidity": 44.5
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W09",
+    "fever_cases": 60,
+    "respiratory_cases": 37,
+    "vaccination_rate": 0.59,
+    "population": 70000,
+    "temperature_avg": 30.2,
+    "humidity": 37.1
+  },
+  {
+    "hospital_id": "H",
+    "region": "Ahmedabad, Gujarat",
+    "week": "2024-W10",
+    "fever_cases": 60,
+    "respiratory_cases": 29,
+    "vaccination_rate": 0.595,
+    "population": 70000,
+    "temperature_avg": 30.0,
+    "humidity": 34.0
+  }
+]

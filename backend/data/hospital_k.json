@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W01",
+    "fever_cases": 79,
+    "respiratory_cases": 40,
+    "vaccination_rate": 0.42,
+    "population": 45000,
+    "temperature_avg": 27.4,
+    "humidity": 72.5
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W02",
+    "fever_cases": 89,
+    "respiratory_cases": 54,
+    "vaccination_rate": 0.425,
+    "population": 45000,
+    "temperature_avg": 28.1,
+    "humidity": 73.5
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W03",
+    "fever_cases": 114,
+    "respiratory_cases": 57,
+    "vaccination_rate": 0.43,
+    "population": 45000,
+    "temperature_avg": 31.5,
+    "humidity": 78.7
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W04",
+    "fever_cases": 132,
+    "respiratory_cases": 81,
+    "vaccination_rate": 0.435,
+    "population": 45000,
+    "temperature_avg": 31.6,
+    "humidity": 81.7
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W05",
+    "fever_cases": 140,
+    "respiratory_cases": 84,
+    "vaccination_rate": 0.44,
+    "population": 45000,
+    "temperature_avg": 32.7,
+    "humidity": 84.8
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W06",
+    "fever_cases": 142,
+    "respiratory_cases": 88,
+    "vaccination_rate": 0.445,
+    "population": 45000,
+    "temperature_avg": 33.4,
+    "humidity": 83.4
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W07",
+    "fever_cases": 129,
+    "respiratory_cases": 82,
+    "vaccination_rate": 0.45,
+    "population": 45000,
+    "temperature_avg": 31.2,
+    "humidity": 83.7
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W08",
+    "fever_cases": 115,
+    "respiratory_cases": 71,
+    "vaccination_rate": 0.455,
+    "population": 45000,
+    "temperature_avg": 31.2,
+    "humidity": 80.3
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W09",
+    "fever_cases": 90,
+    "respiratory_cases": 58,
+    "vaccination_rate": 0.46,
+    "population": 45000,
+    "temperature_avg": 28.9,
+    "humidity": 74.6
+  },
+  {
+    "hospital_id": "K",
+    "region": "Patna, Bihar",
+    "week": "2024-W10",
+    "fever_cases": 80,
+    "respiratory_cases": 38,
+    "vaccination_rate": 0.465,
+    "population": 45000,
+    "temperature_avg": 27.9,
+    "humidity": 72.8
+  }
+]

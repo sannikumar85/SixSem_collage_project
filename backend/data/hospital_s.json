@@ -1,0 +1,112 @@
+[
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W01",
+    "fever_cases": 80,
+    "respiratory_cases": 47,
+    "vaccination_rate": 0.46,
+    "population": 53000,
+    "temperature_avg": 26.3,
+    "humidity": 70.8
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W02",
+    "fever_cases": 80,
+    "respiratory_cases": 39,
+    "vaccination_rate": 0.465,
+    "population": 53000,
+    "temperature_avg": 27.4,
+    "humidity": 72.3
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W03",
+    "fever_cases": 106,
+    "respiratory_cases": 68,
+    "vaccination_rate": 0.47,
+    "population": 53000,
+    "temperature_avg": 29.2,
+    "humidity": 75.4
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W04",
+    "fever_cases": 123,
+    "respiratory_cases": 79,
+    "vaccination_rate": 0.475,
+    "population": 53000,
+    "temperature_avg": 30.6,
+    "humidity": 80.9
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W05",
+    "fever_cases": 126,
+    "respiratory_cases": 61,
+    "vaccination_rate": 0.48,
+    "population": 53000,
+    "temperature_avg": 32.5,
+    "humidity": 81.8
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W06",
+    "fever_cases": 132,
+    "respiratory_cases": 61,
+    "vaccination_rate": 0.485,
+    "population": 53000,
+    "temperature_avg": 32.5,
+    "humidity": 84.1
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W07",
+    "fever_cases": 125,
+    "respiratory_cases": 73,
+    "vaccination_rate": 0.49,
+    "population": 53000,
+    "temperature_avg": 30.3,
+    "humidity": 81.1
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W08",
+    "fever_cases": 107,
+    "respiratory_cases": 49,
+    "vaccination_rate": 0.495,
+    "population": 53000,
+    "temperature_avg": 29.4,
+    "humidity": 78.0
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W09",
+    "fever_cases": 81,
+    "respiratory_cases": 47,
+    "vaccination_rate": 0.5,
+    "population": 53000,
+    "temperature_avg": 27.2,
+    "humidity": 70.4
+  },
+  {
+    "hospital_id": "S",
+    "region": "Varanasi, Uttar Pradesh",
+    "week": "2024-W10",
+    "fever_cases": 81,
+    "respiratory_cases": 49,
+    "vaccination_rate": 0.505,
+    "population": 53000,
+    "temperature_avg": 27.7,
+    "humidity": 71.9
+  }
+]
