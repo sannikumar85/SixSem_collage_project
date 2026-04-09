@@ -5,7 +5,10 @@ import {
   XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
 } from "recharts";
 
-const API = "http://localhost:5000/api";
+const DEFAULT_API = "/api";
+const API = (process.env.REACT_APP_API_URL && !process.env.REACT_APP_API_URL.includes("your-backend-production-url.com"))
+  ? process.env.REACT_APP_API_URL
+  : DEFAULT_API;
 
 const PALETTE = [
   "#3b82f6","#8b5cf6","#10b981","#f59e0b","#ec4899","#06b6d4",

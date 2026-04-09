@@ -1,7 +1,10 @@
 import React, { useState, useEffect } from "react";
 import IndiaMap3D from "./IndiaMap";
 
-const API = "http://localhost:5000/api";
+const DEFAULT_API = "/api";
+const API = (process.env.REACT_APP_API_URL && !process.env.REACT_APP_API_URL.includes("your-backend-production-url.com"))
+  ? process.env.REACT_APP_API_URL
+  : DEFAULT_API;
 
 const RISK_COLOR = { High: "#ef4444", Medium: "#f59e0b", Low: "#22c55e" };
 const RISK_CONFIG = {

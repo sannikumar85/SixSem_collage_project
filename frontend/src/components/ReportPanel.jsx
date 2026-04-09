@@ -1,7 +1,10 @@
 import React, { useState, useRef } from "react";
 import ReactMarkdown from "react-markdown";
 
-const API = "http://localhost:5000/api";
+const DEFAULT_API = "/api";
+const API = (process.env.REACT_APP_API_URL && !process.env.REACT_APP_API_URL.includes("your-backend-production-url.com"))
+  ? process.env.REACT_APP_API_URL
+  : DEFAULT_API;
 
 const PIPELINE_STEPS = [
   { id: 1, icon: "🏥", label: "Training 20 Hospital Nodes", sub: "Federated local training..." },

@@ -17,7 +17,10 @@ from encryption import (
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, resources={r"/api/*": {"origins": "*"}})
+
+# Configure CORS for production based on .env FRONTEND_URL
+frontend_url = os.getenv("FRONTEND_URL", "http://localhost:3000")
+CORS(app, resources={r"/api/*": {"origins": frontend_url}})
 
 # Configure Gemini - supports both GEMINI_API_KEY and OPENAI_API_KEY in .env
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("OPENAI_API_KEY")
@@ -37,6 +40,88 @@ session_store = {
     "prediction": None,
     "report": None
 }
+
+
+def fallback_prediction_from_summary(summary: dict) -> dict:
+    """Build a deterministic local prediction when Gemini is unavailable."""
+    score = float(summary.get("computed_risk_score", 0.0) or 0.0)
+    fever_rate = float(summary.get("avg_fever_rate_per_1000", 0.0) or 0.0)
+    humidity = float(summary.get("avg_humidity_pct", 0.0) or 0.0)
+    trend = float(summary.get("fever_trend", 0.0) or 0.0)
+
+    if score >= 0.7:
+        risk_level = "High"
+        confidence = min(95, int(70 + score * 20))
+    elif score >= 0.35:
+        risk_level = "Medium"
+        confidence = min(90, int(60 + score * 20))
+    else:
+        risk_level = "Low"
+        confidence = min(85, int(55 + score * 20))
+
+    if humidity >= 70 and fever_rate >= 1.0:
+        primary_disease = "Dengue-like Fever"
+    elif fever_rate >= 0.9:
+        primary_disease = "Seasonal Viral Fever"
+    else:
+        primary_disease = "Mild Respiratory Syndrome"
+
+    recommendations = [
+        "Increase fever and respiratory symptom surveillance at district level",
+        "Expand vector-control and sanitation drives in high-incidence clusters",
+        "Run targeted vaccination and awareness campaigns in vulnerable regions",
+        "Prepare rapid response teams and stock essential medicines"
+    ]
+
+    if trend > 0.1:
+        recommendations.insert(0, "Activate early warning alerts due to rising fever trend")
+
+    regions = summary.get("regions", [])
+    return {
+        "risk_level": risk_level,
+        "confidence": confidence,
+        "primary_disease": primary_disease,
+        "affected_regions": regions[:5] if isinstance(regions, list) else [],
+        "peak_expected": "Next 2 weeks",
+        "recommendations": recommendations[:4],
+        "source": "local_fallback_model"
+    }
+
+
+def fallback_report_from_data(prediction: dict, summary: dict) -> str:
+    """Generate a markdown report without LLM dependency."""
+    affected = prediction.get("affected_regions", [])
+    recs = prediction.get("recommendations", [])
+
+    affected_md = "\n".join([f"- {r}" for r in affected]) if affected else "- Data not available"
+    recs_md = "\n".join([f"- {r}" for r in recs]) if recs else "- No recommendations generated"
+
+    return f"""# Disease Outbreak Surveillance Report
+
+## 1. Executive Summary
+- Risk Level: **{prediction.get('risk_level', 'Unknown')}**
+- Confidence: **{prediction.get('confidence', 0)}%**
+- Primary Disease Signal: **{prediction.get('primary_disease', 'Unknown')}**
+- Forecast Window: **{prediction.get('peak_expected', 'Next 2 weeks')}**
+
+## 2. Regional Analysis
+Likely affected regions based on federated indicators:
+{affected_md}
+
+## 3. Key Risk Factors
+- Average fever rate per 1000: **{summary.get('avg_fever_rate_per_1000', 0)}**
+- Average respiratory rate per 1000: **{summary.get('avg_respiratory_rate_per_1000', 0)}**
+- Average vaccination rate: **{summary.get('avg_vaccination_rate_pct', 0)}%**
+- Average humidity: **{summary.get('avg_humidity_pct', 0)}%**
+- Fever trend indicator: **{summary.get('fever_trend', 0)}**
+- Computed risk score: **{summary.get('computed_risk_score', 0)}**
+
+## 4. Public Health Recommendations
+{recs_md}
+
+## 5. Privacy & Methodology Note
+This report was generated from federated aggregated model weights only. Raw patient-level records were never transmitted from hospitals.
+"""
 
 
 def discover_hospitals():
@@ -282,14 +367,16 @@ Return ONLY valid JSON with exactly this structure (no markdown, no extra text):
     try:
         prediction = gemini_generate_json(prompt)
     except Exception as e:
-        return handle_gemini_error(e)
+        print(f"Gemini unavailable for prediction, using local fallback. Error: {e}")
+        prediction = fallback_prediction_from_summary(summary)
 
     session_store["prediction"] = prediction
     return jsonify({
         "prediction": prediction,
         "based_on_nodes": available_ids,
         "analysis_summary": summary,
-        "privacy_preserved": True
+        "privacy_preserved": True,
+        "fallback_used": prediction.get("source") == "local_fallback_model"
     })
 
 
@@ -325,13 +412,14 @@ Be specific, data-driven, and actionable."""
     try:
         report_md = gemini_generate_text(prompt)
     except Exception as e:
-        return handle_gemini_error(e)
+        print(f"Gemini unavailable for report, using local fallback. Error: {e}")
+        report_md = fallback_report_from_data(prediction, summary)
 
     session_store["report"] = report_md
     return jsonify({
         "report": report_md,
         "generated_at": "2024-W10",
-        "model": "gemini-1.5-flash"
+        "model": "gemini-1.5-flash" if "local_fallback_model" not in str(prediction) else "local-fallback"
     })
 
 
@@ -357,4 +445,12 @@ def status():
 
 
 if __name__ == "__main__":
-    app.run(debug=True, port=5000)
+    env = os.getenv("FLASK_ENV", "development")
+    port = int(os.getenv("BACKEND_PORT", 5000))
+    if env == "production":
+        print(f"Starting server in PRODUCTION mode with Waitress on port {port}...")
+        from waitress import serve
+        serve(app, host="0.0.0.0", port=port)
+    else:
+        print(f"Starting server in DEVELOPMENT mode on port {port}...")
+        app.run(debug=True, host="0.0.0.0", port=port)

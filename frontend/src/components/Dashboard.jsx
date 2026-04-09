@@ -1,6 +1,9 @@
 import React, { useState, useEffect, useRef } from "react";
 
-const API = "http://localhost:5000/api";
+const DEFAULT_API = "/api";
+const API = (process.env.REACT_APP_API_URL && !process.env.REACT_APP_API_URL.includes("your-backend-production-url.com"))
+  ? process.env.REACT_APP_API_URL
+  : DEFAULT_API;
 
 const STEPS = [
   { id: 1, short: "Local Train", icon: "🏥", label: "Each hospital trains locally — raw data never leaves the node", color: "#3b82f6" },
@@ -65,20 +68,36 @@ export default function Dashboard({ onPredictionUpdate, prediction, onStepChange
   const [showWeights, setShowWeights] = useState(null);
   const [hoveredCard, setHoveredCard] = useState(null);
   const [trainedThisSession, setTrainedThisSession] = useState(new Set());
+  const [backendOnline, setBackendOnline] = useState(false);
 
   const advanceStep = (s) => { setLocalStep(s); onStepChange?.(s); };
 
   useEffect(() => { fetchHospitals(); fetchStatus(); }, []);
 
+  useEffect(() => {
+    const id = setInterval(() => {
+      // Auto-recover UI when backend comes up after frontend has already loaded.
+      if (!backendOnline || hospitals.length === 0) {
+        fetchHospitals();
+        fetchStatus();
+      }
+    }, 5000);
+    return () => clearInterval(id);
+  }, [backendOnline, hospitals.length]);
+
   const fetchHospitals = async () => {
     try {
       const res = await fetch(`${API}/hospitals`);
+      if (!res.ok) throw new Error("Backend unavailable");
       const data = await res.json();
       setHospitals(data);
       const ids = data.map(h => h.hospital_id);
       setNodeStatus(Object.fromEntries(ids.map(id => [id, "idle"])));
       setNodeLoading(Object.fromEntries(ids.map(id => [id, false])));
+      setBackendOnline(true);
+      setError(null);
     } catch {
+      setBackendOnline(false);
       setError("Cannot connect to backend. Make sure Flask is running on port 5000.");
     }
   };
@@ -86,6 +105,7 @@ export default function Dashboard({ onPredictionUpdate, prediction, onStepChange
   const fetchStatus = async () => {
     try {
       const res = await fetch(`${API}/status`);
+      if (!res.ok) throw new Error("Backend unavailable");
       const data = await res.json();
       if (data.prediction) onPredictionUpdate(data.prediction);
       if (data.trained_nodes?.length > 0) {
@@ -93,7 +113,10 @@ export default function Dashboard({ onPredictionUpdate, prediction, onStepChange
         data.trained_nodes.forEach(id => { updated[id] = "sent"; });
         setNodeStatus(p => ({ ...p, ...updated }));
       }
-    } catch {}
+      setBackendOnline(true);
+    } catch {
+      setBackendOnline(false);
+    }
   };
 
   const trainNode = async (hospitalId) => {
